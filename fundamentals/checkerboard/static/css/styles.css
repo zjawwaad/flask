@@ -1,0 +1,33 @@
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+h1 {
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+.redbox {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: solid black 1px;
+    display: inline-block;
+    margin: -2px;
+}
+
+
+.blackbox {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: solid black 1px;
+    display: inline-block;
+    margin: -2px;
+}
+
+

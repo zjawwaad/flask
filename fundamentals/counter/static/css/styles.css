@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+.click {
+    background-color: blue;
+}
+
+
+.reset {
+    background-color: red;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Document</title>
+</head>
+<body>
+        <h1> Counter</h1>
+        <h2>{{count}}</h2>
+        
+        <div class="buttons">
+        <form action='/addone' >
+        <input class="click" type="submit" name="" value="click">
+        </form>
+        
+        <form action='/reset'>
+        <input class="reset" type="submit" name="" value="reset">
+        </form>
+
+
+        </div>
+
+
+</body>
+</html>
+
+
+
